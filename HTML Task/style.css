@@ -1,0 +1,25 @@
+body{
+    background: black;
+}
+
+.list{
+    background: white;
+    margin: 15px;
+    padding: 10px 20px 20px 20px; 
+}
+.tab{
+    background: white;
+    margin: 10px;
+    padding: 30px;
+}
+table, tr, td, th{
+    border-collapse: collapse;
+    border: 1px solid rgb(225, 214, 214);
+    font-size: 13px;
+}
+table{
+    width: 100%;
+}
+tr:nth-child(even){
+    background: rgb(236, 220, 220);
+}
