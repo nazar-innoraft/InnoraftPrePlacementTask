@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.body{
+    margin: auto;
+    padding: 0px 5px 5px 5px;
+    max-width: 1000px;
+    background: white;
+}
+
+.navbar{
+    background: rgb(95, 153, 234);
+    width: 100%;
+    text-align: center;
+}
+.container1{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+img{
+    max-height: 50px;
+}
+ul{    
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;    
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    padding: 15px 13px;   
+}
+
+li a:hover{
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+.right{
+    transform: scaleX(-1);
+}
+.text{
+    font-size: 50px;
+    color: white;
+}
+
+.main-container{
+    max-width: 100%;
+    background: rgb(51, 71, 111);
+}
+.container2{
+    width: 800px;
+    margin: auto;
+}
+main{
+    max-width: 100%;
+    height: 350px;
+    margin: 5px 0px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 800px;
+    height: 100%;
+}
+.leftSide{
+    display: flex;
+    position: relative;
+    width: 45%;
+    margin: 5px 5px 5px 0;
+}
+.leftUp{
+    width: 100%;
+    height: 100%;
+    background: rgb(174, 196, 78);
+}
+.leftDown{
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    height: 18rem;
+    width: 13em;
+    background: rgb(212, 141, 198);
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: 5px 0 5px 5px;
+}
+.up{
+    height: 60%;
+    margin-bottom: 5px;
+    background: rgb(116, 110, 26);
+}
+.down{
+    height: 40%;
+    background: rgb(54, 167, 62);
+}
+form{
+    margin: 5px;
+}
+input, select{
+    width: 70%;
+}
+input, button, select{
+    margin: 3px;
+    border: 1px solid rgb(65, 65, 41);
+    border-radius: 4px;
+    background: rgb(137, 203, 51);
+    font-size: 120%;
+}
+button{
+    padding: 3px;
+}
+footer{
+    display: block;
+    background: blue;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+}
